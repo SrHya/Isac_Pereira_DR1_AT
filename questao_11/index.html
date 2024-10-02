@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página com Header, Nav, Content e Footer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      header,
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      nav {
+        background-color: #444;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      .content {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+      }
+      .box {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border: 1px solid #ccc;
+        flex: 1;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Início</a> | <a href="fotos.html">Fotos</a> |
+      <a href="formulario.html">Formulário</a> |
+      <a href="download.html">Downloads</a>
+    </nav>
+
+    <div class="content">
+      <div class="box">Conteúdo 1</div>
+      <div class="box">Conteúdo 2</div>
+      <div class="box">Conteúdo 3</div>
+    </div>
+
+    <footer>
+      <p>Rodapé do site</p>
+    </footer>
+  </body>
+</html>

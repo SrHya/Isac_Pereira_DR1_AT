@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid de Vídeos</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .video {
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #f4f4f4;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vídeos</h1>
+
+    <div class="container">
+      <div class="video">
+        <iframe
+          width="100%"
+          height="200"
+          src="https://www.youtube.com/embed/videoID1"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="video">
+        <iframe
+          width="100%"
+          height="200"
+          src="https://www.youtube.com/embed/videoID2"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="video">
+        <iframe
+          width="100%"
+          height="200"
+          src="https://www.youtube.com/embed/videoID3"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="video">
+        <iframe
+          width="100%"
+          height="200"
+          src="https://www.youtube.com/embed/videoID4"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>

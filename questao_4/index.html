@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid 4x4 com Figcaption</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+      figure {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <figure>
+        <img src="https://via.placeholder.com/150" alt="Imagem 1" />
+        <figcaption>Imagem 1</figcaption>
+      </figure>
+      <figure>
+        <img src="https://via.placeholder.com/150" alt="Imagem 2" />
+        <figcaption>Imagem 2</figcaption>
+      </figure>
+      <figure>
+        <img src="https://via.placeholder.com/150" alt="Imagem 3" />
+        <figcaption>Imagem 3</figcaption>
+      </figure>
+      <figure>
+        <img src="https://via.placeholder.com/150" alt="Imagem 4" />
+        <figcaption>Imagem 4</figcaption>
+      </figure>
+      <!-- Adicione mais imagens para completar o grid 4x4 -->
+    </div>
+  </body>
+</html>

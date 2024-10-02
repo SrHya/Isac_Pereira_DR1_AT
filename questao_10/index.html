@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erro Sutil no Design</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      .container {
+        width: 90%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .box {
+        width: 300px;
+        height: 300px;
+        background-color: #ffcccb;
+        border: 2px solid #333;
+        display: inline-block;
+        margin: 10px;
+      }
+
+      /* ERRO SUTIL: Aqui o "padding" foi aplicado ao container */
+      /* Esse código HTML e CSS cria uma página que utiliza um container 
+      centralizado com três caixas (box). A estrutura geral é simples e 
+      bem formatada, mas contém um erro sutil no padding aplicado ao container. 
+      O padding extra no container afeta o layout ao adicionar espaço ao redor do 
+      conteúdo dentro do container, o que pode impactar o design ao aumentar a largura 
+      e a altura do container. */
+
+      .container {
+        padding: 20px; /* Padding afeta o design ao adicionar espaço extra */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
